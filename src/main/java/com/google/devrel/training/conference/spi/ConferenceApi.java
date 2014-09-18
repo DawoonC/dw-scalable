@@ -724,6 +724,8 @@ public class ConferenceApi {
 
     /**
      * Returns sessions queried by user.
+     *
+     * @param sessionQueryForm A SessionQueryForm object representing user's inputs.
      * @return sessions queried by user.
      */
     @ApiMethod(
@@ -742,6 +744,14 @@ public class ConferenceApi {
         return result;
     }    
 
+    /**
+     * A method for query problem in final project rublic.
+     * This method is designed for retrun sessions that starts before 7pm and has non-workshop type of session.
+     * 
+     * @param startTime start time of the session.
+     * @param typeOfSession type of the session.
+     * @return list of sessions which starts before the startTime parameter, and excludes typeOfSession parameter.
+     */
     @ApiMethod(
             name = "queryProblem",
             path = "queryProblem",
