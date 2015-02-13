@@ -1,8 +1,7 @@
 # DW SCALABLE
-Conference Central App for the final project of Developing Scalable Apps with Java (ud859) course at Udacity
+Conference Central App for the final project of Developing Scalable Apps with Java (ud859) course at Udacity.
 
 Developing Scalable Apps with Java at Udacity: https://www.udacity.com/course/ud859
-<br>
 <br>
 
 ## Products
